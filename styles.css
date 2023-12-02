@@ -1,0 +1,97 @@
+/* Add the following styles for the navbar */
+
+header {
+  background-color: #3498db;
+  /* Blue header background color */
+  padding: 15px 0;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+/* Update the existing styles */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: white;
+  /* Light background color */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  /* Dark gray heading color */
+  margin-top: 30px;
+}
+
+input[type='text'] {
+  padding: 10px;
+  margin: 15px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  width: 70%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px 24px;
+  margin: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3498db;
+  /* Blue button color */
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+  /* Darker blue on hover */
+}
+
+#thumbnailsContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thumbnail {
+  margin: 10px;
+  text-align: center;
+}
+
+.thumbnail img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail a {
+  display: block;
+  margin-top: 10px;
+  color: #2c3e50;
+  /* Dark text color for download links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.thumbnail a:hover {
+  color: #e74c3c;
+  /* Red on hover for download links */
+}
